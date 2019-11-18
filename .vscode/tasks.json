@@ -7,7 +7,7 @@
             "command": "g++",
             "args": [
                 "-g",
-                "hello.cpp"
+                "sawp3.c"
             ],
             "group": {
                 "kind": "build",
