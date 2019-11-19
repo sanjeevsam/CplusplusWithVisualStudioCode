@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void swap(int ,int );
+void swap(int ,int );  //declaration of function
 int main()
 {
     int a,b;
@@ -9,9 +9,9 @@ int main()
     printf("enter value of b:");
     scanf("%d",&b);
     printf("Before swapping number is a =%d,b =%d\n",a,b);
-    swap(a,b);
+    swap(a,b); //calling function
 }
-void swap(int x,int y)
+void swap(int x,int y)  //definition of function
 {
     int temp;    //swaping using third variable      
     temp=x;
