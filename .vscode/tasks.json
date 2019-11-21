@@ -7,7 +7,7 @@
             "command": "g++",
             "args": [
                 "-g",
-                "simple_maths.c"
+                "factorial1.c"
             ],
             "group": {
                 "kind": "build",
